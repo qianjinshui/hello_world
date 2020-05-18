@@ -1,0 +1,87 @@
+1.程序性能分析
+  空间复杂度
+    1.指令空间
+    2.数据空间
+    3.环境栈空间
+    c+Sp 
+  时间复杂度
+  
+  
+ 渐近记法
+O 
+Θ
+Ω
+o
+
+高速缓存
+
+数据结构
+1. 线性表
+  迭代器 iterator
+  数组描述
+    array  vector
+  链式描述
+    list
+    
+2.数组和矩阵
+    类matrix
+操作：
+形如(index,value)的数对集合，任意两个数对索引不同
+
+get（index）
+set（index，value）
+int score[u1][u2][u3]
+    
+3.栈
+是一种特殊的线性表，其插入（入栈）和删除操作都在表的同一端进行。这一端成为top栈顶，另一端栈底bottom。
+类arrayStack
+类linkedStack
+
+操作：
+empty();size();top();pop();push(x);
+
+arrayStack<int> s;
+s.push(1);
+s.pop();
+
+4.队列
+queue 线性表 插入和删除 在不同端
+
+操作：
+empty();size();front();back();pop();push(x);
+
+namespace std;
+standard libary  and standard template libary ;
+
+5.跳表和散列
+字典dictionary
+操作：
+empty();size();find();insert();erase();
+
+线性表描述
+跳表表示skipList
+散列表描述
+  桶和起始桶
+  除法散列函数
+  冲突和溢出
+  除法和非整形关键字
+  线性探查
+  
+
+6.二叉树和其他树
+一棵二叉树t是有限个元素的集合（可以为空），当二叉树非空时，其中有一个元素为根，余下的元素（如果有）被划分成两棵二叉树，分别称为t的左子树和右子树。
+
+数组描述 链表描述
+常用操作：
+确定高度
+确定元素数目
+复制
+显示或打印二叉树
+确定两颗二叉树是否一样
+删除整棵树。
+
+遍历traversal
+
+
+
+
